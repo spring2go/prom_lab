@@ -4,7 +4,7 @@
 
 ### Metrics
 
-访问端点：
+运行时访问端点：
 ```
 http://SERVICE_URL:8080/prometheus
 ```
@@ -43,7 +43,9 @@ curl -X POST http://SERVICE_URL:8080/error_rate/50
 
 ```
 
-#### 其它参数配置在`application.properties`中
+#### 其它参数
+
+配置在`application.properties`中
 
 ```
 opts.endpoints=/login, /login, /login, /login, /login, /login, /login, /users, /users, /users, /users/{id}, /register, /register, /logout, /logout, /logout, /logout
@@ -59,6 +61,12 @@ opts.latency_uncertainty=70
 opts.error_rate=1
 opts.spike_start_chance=5
 opts.spike_end_chance=30
+```
+
+
+运行时校验端点：
+```
+http://SERVICE_URL:8080/opts
 ```
 
 ### 参考
