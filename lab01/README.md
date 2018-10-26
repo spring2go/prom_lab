@@ -5,7 +5,7 @@
 
 #### 1. 运行Prometheus HTTP Metrics Simulator
 
-* 将[http-simulator](http-simulator)导入Eclipse IDE
+* 将[http-simulator](../http-simulator)导入Eclipse IDE
 * Review代码理解模拟器原理
 * 以Spring Boot方式运行模拟器
 * 通过`http://localhost:8080/prometheus`查看metrics
