@@ -9,7 +9,7 @@
 * Review代码理解模拟器原理
 * 以Spring Boot方式运行模拟器
 * 通过`http://localhost:8080/prometheus`查看metrics
-* 通过Postman其中随机Spike模式
+* 通过Postman启用随机Spike模式
 
 ```
 curl -X POST http://SERVICE_URL:8080/spike/random
@@ -74,7 +74,7 @@ metric方式校验`prometheus`和`http-simulator`两个jobs在**UP**或**1**状�
 up{job="http-simulator")
 ```
 
-查询总http请求数
+查询http请求数
 ```
 http_requests_total{job="http-simulator"}
 ```
