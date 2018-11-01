@@ -106,7 +106,7 @@ sum(rate(http_requests_total{job="http-simulator", status="200"}[5m]))
 
 #### 4. 延迟分布(Latency distribution)查询
 
-查询htt-simulator延迟分布
+查询http-simulator延迟分布
 ```
 http_request_duration_milliseconds_bucket{job="http-simulator"}
 ```
