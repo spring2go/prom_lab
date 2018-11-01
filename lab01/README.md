@@ -71,7 +71,7 @@ metric方式校验`prometheus`和`http-simulator`两个jobs在**UP**或**1**状�
 
 校验http-simulator在**1**状态
 ```
-up{job="http-simulator")
+up{job="http-simulator"}
 ```
 
 查询http请求数
