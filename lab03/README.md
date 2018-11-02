@@ -127,6 +127,11 @@ curl -X POST http://PROMETHEUS_URL:9090/-/reload
 
 通过Alertmanager UI界面和设置的邮箱，校验`ErrorRateHigh`告警触发
 
+Alertmanager UI访问地址：
+```
+http://localhost:9093
+```
+
 
 
 
