@@ -1,4 +1,4 @@
-实验六、Spring Cloud Actuator监控实验
+实验六、Spring Boot Actuator监控实验
 ======
 
 ### 实验步骤
